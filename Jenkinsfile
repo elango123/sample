@@ -2,6 +2,7 @@
 standardBuild {
     environment = 'golang:1.5.0'
     mainScript = '''
+echo "test"
 go version
 go build -v hello-world.go
 '''
